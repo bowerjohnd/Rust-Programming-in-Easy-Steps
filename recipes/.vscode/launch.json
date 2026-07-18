@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug unit tests in library 'database'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--package=database"
+                ]
+            }
+        },
+        {
+            "name": "Debug unit tests in library 'prompt'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--package=prompt"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'recipes'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=recipes",
+                    "--package=recipes"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'recipes'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=recipes",
+                    "--package=recipes"
+                ]
+            }
+        }
+    ]
+}

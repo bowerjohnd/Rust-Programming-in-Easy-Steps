@@ -1,0 +1,11 @@
+[workspace]
+members = ["database", "prompt"]
+
+[package]
+name = "recipes"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+database = {path = "database"}
+prompt = { path = "prompt" }

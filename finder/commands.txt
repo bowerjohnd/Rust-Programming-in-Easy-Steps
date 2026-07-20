@@ -1,0 +1,13 @@
+finder --find "Lizzy" input.txt output.txt
+	finds lines containing "Lizzy" from input.txt
+	prints only those lines to output.txt
+	
+finder --find "Mr. Bennet" --replace 'John' input.txt output.txt
+	finds lines containing "Mr. Bennet" from input.txt 
+	replaces "Mr. Bennet" with 'John' 
+	prints only those lines to output.txt
+
+finder --find "Mr.Bennet" --replace 'John' --all input.txt output.txt
+	finds lines containing "Mr. Bennet" from input.txt
+	replaces "Mr. Bennet" with 'John'
+	prints all lines, with replacements, to output.txt

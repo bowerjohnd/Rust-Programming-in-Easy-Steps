@@ -1,0 +1,1 @@
+This project was created for debugging purposes while I was troubleshooting database connections with recipes project. I wanted to break down the full recipe project into just one simple database connection and query to ensure my local mysql server setup and permissions were working.

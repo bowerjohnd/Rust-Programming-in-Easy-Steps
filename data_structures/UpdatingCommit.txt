@@ -1,0 +1,1 @@
+Update initial commit, so Chapters 2-8 projects are shown in repo (chapter 1 is setup with no projects).
